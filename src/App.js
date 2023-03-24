@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CampsitesList from './features/CampsitesList';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import { CAMPSITES } from './app/shared/CAMPSITES';
@@ -11,7 +11,7 @@ function App() {
   return (
   <div className='App'>
     <Header />
-        <CampsitesList campsites={CAMPSITES} />
+        <CampsitesDirectoryPage campsites={CAMPSITES} />
     <Footer />
   </div>
     );
